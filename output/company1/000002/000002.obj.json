@@ -1,0 +1,82 @@
+{
+  "taxYear" : 2025,
+  "accountId" : "44-038-5961",
+  "taxFormId" : "1050587",
+  "taxFormDate" : "2025-12-31",
+  "issuer" : {
+    "tin" : "00-0541735",
+    "partyType" : "BUSINESS",
+    "businessName" : {
+      "name1" : "O'Connell-Koepp"
+    },
+    "address" : {
+      "line1" : "2641 Barrows Parkways",
+      "city" : "Port Johnnie",
+      "region" : "KS",
+      "postalCode" : "87842"
+    },
+    "phone" : {
+      "number" : "555-867-5309"
+    },
+    "email" : "nicholas.aufderhar@yahoo.com"
+  },
+  "recipient" : {
+    "tin" : "000-54-6216",
+    "partyType" : "INDIVIDUAL",
+    "individualName" : {
+      "first" : "Christopher",
+      "last" : "Raynor"
+    },
+    "address" : {
+      "line1" : "152 Kirk Stravenue",
+      "city" : "Spinkaville",
+      "region" : "GA",
+      "postalCode" : "56444"
+    },
+    "email" : "otha.nicolas@gmail.com"
+  },
+  "attributes" : [ ],
+  "links" : [ ],
+  "accountNumber" : "214-75709-1",
+  "ordinaryDividends" : 200,
+  "qualifiedDividends" : 300,
+  "totalCapitalGain" : 400,
+  "unrecaptured1250Gain" : 500,
+  "section1202Gain" : 600,
+  "collectiblesGain" : 700,
+  "section897Dividends" : 800,
+  "section897CapitalGain" : 900,
+  "nonTaxableDistribution" : 1000,
+  "federalTaxWithheld" : 1100,
+  "section199ADividends" : 1200,
+  "investmentExpenses" : 1300,
+  "foreignTaxPaid" : 1400,
+  "foreignCountry" : "foreignCountry",
+  "cashLiquidation" : 1500,
+  "nonCashLiquidation" : 1600,
+  "foreignAccountTaxCompliance" : true,
+  "taxExemptInterestDividend" : 1700,
+  "specifiedPabInterestDividend" : 1800,
+  "stateAndLocal" : [ {
+    "stateCode" : "AA",
+    "state" : {
+      "taxWithheld" : 1900,
+      "taxId" : "79-762737",
+      "income" : 2000
+    },
+    "local" : {
+      "taxWithheld" : 2100,
+      "localityName" : "McClureburgh",
+      "income" : 2200
+    }
+  } ],
+  "foreignIncomes" : [ {
+    "description" : "Description",
+    "amount" : 2300
+  } ],
+  "stateTaxExemptIncomes" : [ {
+    "description" : "Description",
+    "amount" : 2400
+  } ],
+  "secondTinNotice" : true
+}
