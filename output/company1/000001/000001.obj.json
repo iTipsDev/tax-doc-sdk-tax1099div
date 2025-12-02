@@ -1,0 +1,82 @@
+{
+  "taxYear" : 2025,
+  "accountId" : "89-182-6162",
+  "taxFormId" : "5608363",
+  "taxFormDate" : "2025-12-31",
+  "issuer" : {
+    "tin" : "00-0541735",
+    "partyType" : "BUSINESS",
+    "businessName" : {
+      "name1" : "O'Connell-Koepp"
+    },
+    "address" : {
+      "line1" : "2641 Barrows Parkways",
+      "city" : "Port Johnnie",
+      "region" : "KS",
+      "postalCode" : "87842"
+    },
+    "phone" : {
+      "number" : "555-867-5309"
+    },
+    "email" : "nicholas.aufderhar@yahoo.com"
+  },
+  "recipient" : {
+    "tin" : "000-77-7785",
+    "partyType" : "INDIVIDUAL",
+    "individualName" : {
+      "first" : "Wilbur",
+      "last" : "Davis"
+    },
+    "address" : {
+      "line1" : "287 Timothy Field",
+      "city" : "Gemafort",
+      "region" : "NV",
+      "postalCode" : "57486"
+    },
+    "email" : "erinn.littel@yahoo.com"
+  },
+  "attributes" : [ ],
+  "links" : [ ],
+  "accountNumber" : "424-53128-1",
+  "ordinaryDividends" : 200,
+  "qualifiedDividends" : 300,
+  "totalCapitalGain" : 400,
+  "unrecaptured1250Gain" : 500,
+  "section1202Gain" : 600,
+  "collectiblesGain" : 700,
+  "section897Dividends" : 800,
+  "section897CapitalGain" : 900,
+  "nonTaxableDistribution" : 1000,
+  "federalTaxWithheld" : 1100,
+  "section199ADividends" : 1200,
+  "investmentExpenses" : 1300,
+  "foreignTaxPaid" : 1400,
+  "foreignCountry" : "foreignCountry",
+  "cashLiquidation" : 1500,
+  "nonCashLiquidation" : 1600,
+  "foreignAccountTaxCompliance" : true,
+  "taxExemptInterestDividend" : 1700,
+  "specifiedPabInterestDividend" : 1800,
+  "stateAndLocal" : [ {
+    "stateCode" : "AA",
+    "state" : {
+      "taxWithheld" : 1900,
+      "taxId" : "02-040945",
+      "income" : 2000
+    },
+    "local" : {
+      "taxWithheld" : 2100,
+      "localityName" : "South Fredrickburgh",
+      "income" : 2200
+    }
+  } ],
+  "foreignIncomes" : [ {
+    "description" : "Description",
+    "amount" : 2300
+  } ],
+  "stateTaxExemptIncomes" : [ {
+    "description" : "Description",
+    "amount" : 2400
+  } ],
+  "secondTinNotice" : true
+}
