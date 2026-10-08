@@ -1,0 +1,115 @@
+{
+  "taxYear" : 2026,
+  "accountId" : "33-432-5081",
+  "taxFormId" : "5903969",
+  "taxFormDate" : "2026-12-31",
+  "issuer" : {
+    "tin" : "00-0949324",
+    "partyType" : "BUSINESS",
+    "businessName" : {
+      "name1" : "Conn, Kulas and Torphy"
+    },
+    "address" : {
+      "line1" : "177 Ellis Unions",
+      "city" : "North Kory",
+      "region" : "MD",
+      "postalCode" : "09212",
+      "unitType" : "Apt",
+      "unitNumber" : "673"
+    },
+    "phone" : {
+      "number" : "555-867-5309"
+    },
+    "email" : "edgardo.flatley@yahoo.com"
+  },
+  "recipient" : {
+    "tin" : "000-71-4971",
+    "partyType" : "INDIVIDUAL",
+    "individualName" : {
+      "first" : "Lenny",
+      "middle" : "Jamison",
+      "last" : "Block"
+    },
+    "businessName" : {
+      "name1" : "Rempel Group"
+    },
+    "address" : {
+      "line1" : "5928 Ron Groves",
+      "city" : "West Adrieneton",
+      "region" : "HI",
+      "postalCode" : "49601",
+      "unitType" : "Apt",
+      "unitNumber" : "774"
+    },
+    "email" : "latoria.wiza@hotmail.com"
+  },
+  "attributes" : [ ],
+  "links" : [ ],
+  "accountNumber" : "183-89506-0",
+  "ordinaryDividends" : 200,
+  "qualifiedDividends" : 300,
+  "qualifiedDividendsNotEligible" : 400,
+  "totalCapitalGain" : 500,
+  "unrecaptured1250Gain" : 600,
+  "section1202Gain" : 700,
+  "collectiblesGain" : 800,
+  "section897Dividends" : 900,
+  "section897CapitalGain" : 1000,
+  "nonTaxableDistribution" : 1100,
+  "federalTaxWithheld" : 1200,
+  "section199ADividends" : 1300,
+  "investmentExpenses" : 1400,
+  "foreignTaxPaid" : 1500,
+  "foreignCountry" : "Guatemala",
+  "cashLiquidation" : 1600,
+  "nonCashLiquidation" : 1700,
+  "foreignAccountTaxCompliance" : true,
+  "taxExemptInterestDividend" : 1800,
+  "specifiedPabInterestDividend" : 1900,
+  "stateAndLocal" : [ {
+    "stateCode" : "AA",
+    "state" : {
+      "taxWithheld" : 2000,
+      "taxId" : "40-225660",
+      "income" : 2100
+    },
+    "local" : {
+      "taxWithheld" : 2200,
+      "localityName" : "West Marquis",
+      "income" : 2300
+    }
+  } ],
+  "foreignIncomes" : [ {
+    "description" : "CA SDI",
+    "amount" : 2400
+  } ],
+  "foreignSourceIncomes" : [ {
+    "qualifiedDividends" : 2500,
+    "nonQualifiedDividends" : 2600,
+    "capitalGains" : 2700,
+    "totalDividends" : 2800
+  } ],
+  "stateTaxExemptIncomes" : [ {
+    "description" : "CA SDI",
+    "amount" : 2900
+  } ],
+  "taxExemptIncomes" : [ {
+    "fundName" : "fundName",
+    "exemptAmount" : 3000,
+    "stateExemptIncomes" : [ {
+      "stateCode" : "AA",
+      "percent" : 3100,
+      "amount" : 3200
+    } ]
+  } ],
+  "usSecurityIncomes" : [ {
+    "securityName" : "securityName",
+    "totalDividends" : 3300,
+    "agencyIncomes" : [ {
+      "agencyType" : "FEDERAL_FARM_CREDIT",
+      "percent" : 3400,
+      "amount" : 3500
+    } ]
+  } ],
+  "secondTinNotice" : true
+}

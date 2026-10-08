@@ -1,0 +1,115 @@
+{
+  "taxYear" : 2026,
+  "accountId" : "73-104-4868",
+  "taxFormId" : "4069102",
+  "taxFormDate" : "2026-12-31",
+  "issuer" : {
+    "tin" : "00-0949324",
+    "partyType" : "BUSINESS",
+    "businessName" : {
+      "name1" : "Conn, Kulas and Torphy"
+    },
+    "address" : {
+      "line1" : "177 Ellis Unions",
+      "city" : "North Kory",
+      "region" : "MD",
+      "postalCode" : "09212",
+      "unitType" : "Apt",
+      "unitNumber" : "673"
+    },
+    "phone" : {
+      "number" : "555-867-5309"
+    },
+    "email" : "edgardo.flatley@yahoo.com"
+  },
+  "recipient" : {
+    "tin" : "000-86-0508",
+    "partyType" : "INDIVIDUAL",
+    "individualName" : {
+      "first" : "Kenya",
+      "middle" : "Yevette",
+      "last" : "Weimann"
+    },
+    "businessName" : {
+      "name1" : "Mayer and Sons"
+    },
+    "address" : {
+      "line1" : "958 Dusty Parkway",
+      "city" : "Lake Olen",
+      "region" : "OH",
+      "postalCode" : "45310",
+      "unitType" : "Apt",
+      "unitNumber" : "242"
+    },
+    "email" : "branden.terry@hotmail.com"
+  },
+  "attributes" : [ ],
+  "links" : [ ],
+  "accountNumber" : "540-79817-6",
+  "ordinaryDividends" : 200,
+  "qualifiedDividends" : 300,
+  "qualifiedDividendsNotEligible" : 400,
+  "totalCapitalGain" : 500,
+  "unrecaptured1250Gain" : 600,
+  "section1202Gain" : 700,
+  "collectiblesGain" : 800,
+  "section897Dividends" : 900,
+  "section897CapitalGain" : 1000,
+  "nonTaxableDistribution" : 1100,
+  "federalTaxWithheld" : 1200,
+  "section199ADividends" : 1300,
+  "investmentExpenses" : 1400,
+  "foreignTaxPaid" : 1500,
+  "foreignCountry" : "Guatemala",
+  "cashLiquidation" : 1600,
+  "nonCashLiquidation" : 1700,
+  "foreignAccountTaxCompliance" : true,
+  "taxExemptInterestDividend" : 1800,
+  "specifiedPabInterestDividend" : 1900,
+  "stateAndLocal" : [ {
+    "stateCode" : "AA",
+    "state" : {
+      "taxWithheld" : 2000,
+      "taxId" : "62-682838",
+      "income" : 2100
+    },
+    "local" : {
+      "taxWithheld" : 2200,
+      "localityName" : "North Feview",
+      "income" : 2300
+    }
+  } ],
+  "foreignIncomes" : [ {
+    "description" : "CA SDI",
+    "amount" : 2400
+  } ],
+  "foreignSourceIncomes" : [ {
+    "qualifiedDividends" : 2500,
+    "nonQualifiedDividends" : 2600,
+    "capitalGains" : 2700,
+    "totalDividends" : 2800
+  } ],
+  "stateTaxExemptIncomes" : [ {
+    "description" : "CA SDI",
+    "amount" : 2900
+  } ],
+  "taxExemptIncomes" : [ {
+    "fundName" : "fundName",
+    "exemptAmount" : 3000,
+    "stateExemptIncomes" : [ {
+      "stateCode" : "AA",
+      "percent" : 3100,
+      "amount" : 3200
+    } ]
+  } ],
+  "usSecurityIncomes" : [ {
+    "securityName" : "securityName",
+    "totalDividends" : 3300,
+    "agencyIncomes" : [ {
+      "agencyType" : "FEDERAL_FARM_CREDIT",
+      "percent" : 3400,
+      "amount" : 3500
+    } ]
+  } ],
+  "secondTinNotice" : true
+}

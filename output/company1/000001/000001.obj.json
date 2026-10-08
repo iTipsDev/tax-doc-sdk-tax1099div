@@ -1,0 +1,115 @@
+{
+  "taxYear" : 2026,
+  "accountId" : "69-252-7314",
+  "taxFormId" : "9170157",
+  "taxFormDate" : "2026-12-31",
+  "issuer" : {
+    "tin" : "00-0949324",
+    "partyType" : "BUSINESS",
+    "businessName" : {
+      "name1" : "Conn, Kulas and Torphy"
+    },
+    "address" : {
+      "line1" : "177 Ellis Unions",
+      "city" : "North Kory",
+      "region" : "MD",
+      "postalCode" : "09212",
+      "unitType" : "Apt",
+      "unitNumber" : "673"
+    },
+    "phone" : {
+      "number" : "555-867-5309"
+    },
+    "email" : "edgardo.flatley@yahoo.com"
+  },
+  "recipient" : {
+    "tin" : "000-29-2235",
+    "partyType" : "INDIVIDUAL",
+    "individualName" : {
+      "first" : "Robert",
+      "middle" : "Miles",
+      "last" : "Witting"
+    },
+    "businessName" : {
+      "name1" : "Beatty, Hermiston and Osinski"
+    },
+    "address" : {
+      "line1" : "6798 Lavinia Well",
+      "city" : "Augustusbury",
+      "region" : "PA",
+      "postalCode" : "24756",
+      "unitType" : "Apt",
+      "unitNumber" : "891"
+    },
+    "email" : "phung.dare@hotmail.com"
+  },
+  "attributes" : [ ],
+  "links" : [ ],
+  "accountNumber" : "910-49645-9",
+  "ordinaryDividends" : 200,
+  "qualifiedDividends" : 300,
+  "qualifiedDividendsNotEligible" : 400,
+  "totalCapitalGain" : 500,
+  "unrecaptured1250Gain" : 600,
+  "section1202Gain" : 700,
+  "collectiblesGain" : 800,
+  "section897Dividends" : 900,
+  "section897CapitalGain" : 1000,
+  "nonTaxableDistribution" : 1100,
+  "federalTaxWithheld" : 1200,
+  "section199ADividends" : 1300,
+  "investmentExpenses" : 1400,
+  "foreignTaxPaid" : 1500,
+  "foreignCountry" : "Guatemala",
+  "cashLiquidation" : 1600,
+  "nonCashLiquidation" : 1700,
+  "foreignAccountTaxCompliance" : true,
+  "taxExemptInterestDividend" : 1800,
+  "specifiedPabInterestDividend" : 1900,
+  "stateAndLocal" : [ {
+    "stateCode" : "AA",
+    "state" : {
+      "taxWithheld" : 2000,
+      "taxId" : "47-258100",
+      "income" : 2100
+    },
+    "local" : {
+      "taxWithheld" : 2200,
+      "localityName" : "Boyerchester",
+      "income" : 2300
+    }
+  } ],
+  "foreignIncomes" : [ {
+    "description" : "CA SDI",
+    "amount" : 2400
+  } ],
+  "foreignSourceIncomes" : [ {
+    "qualifiedDividends" : 2500,
+    "nonQualifiedDividends" : 2600,
+    "capitalGains" : 2700,
+    "totalDividends" : 2800
+  } ],
+  "stateTaxExemptIncomes" : [ {
+    "description" : "CA SDI",
+    "amount" : 2900
+  } ],
+  "taxExemptIncomes" : [ {
+    "fundName" : "fundName",
+    "exemptAmount" : 3000,
+    "stateExemptIncomes" : [ {
+      "stateCode" : "AA",
+      "percent" : 3100,
+      "amount" : 3200
+    } ]
+  } ],
+  "usSecurityIncomes" : [ {
+    "securityName" : "securityName",
+    "totalDividends" : 3300,
+    "agencyIncomes" : [ {
+      "agencyType" : "FEDERAL_FARM_CREDIT",
+      "percent" : 3400,
+      "amount" : 3500
+    } ]
+  } ],
+  "secondTinNotice" : true
+}
